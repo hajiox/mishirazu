@@ -9,9 +9,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "【限定200セット】皇室献上の会津みしらず柿5kg｜送料無料・産地直送｜会津ブランド館",
+  title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・種なし・送料無料｜会津ブランド館",
   description:
-    "楽天・メルカリアワード受賞店！皇室献上の会津みしらず柿5kg（14～16玉入り）。渋抜き済み・種なしで食べやすい大玉柿を産地直送でお届けします。限定200セット・送料無料。",
+    "楽天・メルカリアワード受賞店の会津ブランド館が贈る、皇室献上の極上会津みしらず柿5kg（14～16玉入り）。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送でお届けします。限定200セット・送料無料。",
   keywords: [
     "会津みしらず柿",
     "柿",
@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     "大玉",
     "楽天",
     "メルカリ",
+    "秋の果物",
+    "ギフト",
+    "贈答用",
   ],
   authors: [{ name: "会津ブランド館" }],
   creator: "会津ブランド館",
@@ -34,21 +37,22 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://kaki.aizu-syokubura.com"),
+  metadataBase: new URL("https://mishirazu.aizu-syokubura.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "【限定200セット】皇室献上の会津みしらず柿5kg｜送料無料",
-    description: "楽天・メルカリアワード受賞店！渋抜き済み・種なしで食べやすい大玉柿を産地直送でお届けします。",
-    url: "https://kaki.aizu-syokubura.com",
-    siteName: "会津ブランド館 柿専門店",
+    title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・種なし・送料無料",
+    description:
+      "楽天・メルカリアワード受賞店！皇室献上の極上柿。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送でお届けします。",
+    url: "https://mishirazu.aizu-syokubura.com",
+    siteName: "会津ブランド館 会津みしらず柿専門店",
     images: [
       {
         url: "/images/ogp.jpg",
         width: 1200,
         height: 630,
-        alt: "皇室献上の会津みしらず柿",
+        alt: "皇室献上の会津みしらず柿 - 渋抜き済み・種なし大玉柿",
       },
     ],
     locale: "ja_JP",
@@ -56,8 +60,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "【限定200セット】皇室献上の会津みしらず柿5kg｜送料無料",
-    description: "楽天・メルカリアワード受賞店！渋抜き済み・種なしで食べやすい大玉柿を産地直送でお届けします。",
+    title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・送料無料",
+    description:
+      "楽天・メルカリアワード受賞店！皇室献上の極上柿。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送。",
     images: ["/images/ogp.jpg"],
     creator: "@aizubrandhall",
   },

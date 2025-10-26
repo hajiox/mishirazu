@@ -403,7 +403,7 @@ export default function PersimmonLandingPage() {
             <div className="bg-pink-100 p-4 md:p-6 rounded-lg border border-pink-200">
               <div className="text-center">
                 <a
-                  href="https://store.shopping.yahoo.co.jp/aizubrandhall/"
+                  href="https://store.shopping.yahoo.co.jp/aizubrandhall/b08mwyx5xj.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block"
@@ -432,7 +432,7 @@ export default function PersimmonLandingPage() {
             <div className="bg-blue-100 p-4 md:p-6 rounded-lg border border-blue-200">
               <div className="text-center">
                 <a
-                  href="https://item.rakuten.co.jp/aizubrandhall/"
+                  href="https://item.rakuten.co.jp/aizubrandhall/10000040/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block"
@@ -460,7 +460,12 @@ export default function PersimmonLandingPage() {
             {/* Amazon */}
             <div className="bg-green-100 p-4 md:p-6 rounded-lg border border-green-200">
               <div className="text-center">
-                <a href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer" className="block">
+                <a
+                  href="https://www.amazon.co.jp/dp/B0DMLSZ9ZP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
                   <div className="bg-white p-3 md:p-4 rounded-lg mb-3 md:mb-4 mx-auto max-w-xs hover:shadow-md transition-shadow">
                     <Image
                       src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/buyAmazon-8vF1vvv8WdrfZ0RivyeSapzHxJqpR2.png"
