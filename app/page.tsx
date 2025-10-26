@@ -192,12 +192,12 @@ export default function PersimmonLandingPage() {
           <div className="space-y-16">
             {/* Feature 1 */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-gradient-to-br from-red-900 to-amber-100">
+              <div className="relative aspect-square overflow-hidden">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E7%9A%87%E5%AE%A4%E7%8C%AE%E4%B8%8A%E3%81%AE%E6%A5%B5%E4%B8%8A%E6%9F%BF-reJsXZVmH17IYNjJK0DH2JQY9t0HC1.jpg"
                   alt="皇室献上の極上柿"
                   fill
-                  className="object-contain p-4"
+                  className="object-contain"
                 />
               </div>
               <div className="space-y-4">
