@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
-import { Star } from "lucide-react"
+import { Star } from 'lucide-react'
 
 export default function PersimmonLandingPage() {
   const reviews = [
@@ -110,6 +110,15 @@ export default function PersimmonLandingPage() {
               priority
             />
           </div>
+        </div>
+      </section>
+
+      {/* Season End Notice Banner */}
+      <section className="py-4 bg-white border-b-2 border-red-500">
+        <div className="container mx-auto px-4">
+          <p className="text-center text-red-600 font-bold text-lg md:text-xl">
+            2025年の発送は終了いたしました。また来年お楽しみください。
+          </p>
         </div>
       </section>
 
