@@ -113,15 +113,6 @@ export default function PersimmonLandingPage() {
         </div>
       </section>
 
-      {/* Season End Notice Banner */}
-      <section className="py-4 bg-white border-b-2 border-red-500">
-        <div className="container mx-auto px-4">
-          <p className="text-center text-red-600 font-bold text-lg md:text-xl">
-            2025年の発送は終了いたしました。また来年お楽しみください。
-          </p>
-        </div>
-      </section>
-
       {/* Main Copy Section */}
       <section className="py-12 md:py-16 bg-gradient-to-b from-white to-amber-50">
         <div className="container mx-auto px-4 text-center max-w-5xl">
