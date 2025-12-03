@@ -11,7 +11,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・種なし・送料無料｜会津ブランド館",
   description:
-    "楽天・メルカリアワード受賞店の会津ブランド館が贈る、皇室献上の極上会津みしらず柿5kg（14～16玉入り）。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送でお届けします。限定200セット・送料無料。",
+    "楽天・メルカリアワード受賞店の会津ブランド館が贈る、皇室献上の極上会津みしらず柿5kg（14～18玉入り）。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送でお届けします。限定200セット・送料無料。",
   keywords: [
     "会津みしらず柿",
     "柿",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "会津ブランド館 会津みしらず柿専門店",
     images: [
       {
-        url: "/images/ogp.jpg",
+        url: "https://mishirazu.aizu-syokubura.com/images/ogp.jpg",
         width: 1200,
         height: 630,
         alt: "皇室献上の会津みしらず柿 - 渋抜き済み・種なし大玉柿",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・送料無料",
     description:
       "楽天・メルカリアワード受賞店！皇室献上の極上柿。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送。",
-    images: ["/images/ogp.jpg"],
+    images: ["https://mishirazu.aizu-syokubura.com/images/ogp.jpg"],
     creator: "@aizubrandhall",
   },
   robots: {
@@ -76,9 +76,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  verification: {
-    google: "google-site-verification-code",
   },
   generator: "v0.app",
 }
