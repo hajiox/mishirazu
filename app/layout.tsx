@@ -50,9 +50,10 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://mishirazu.aizu-syokubura.com/images/ogp.jpg",
-        width: 1200,
-        height: 630,
+        width: 1217,
+        height: 647,
         alt: "皇室献上の会津みしらず柿 - 渋抜き済み・種なし大玉柿",
+        type: "image/jpeg",
       },
     ],
     locale: "ja_JP",
@@ -60,11 +61,19 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@Aizu_Brand_Kan",
+    creator: "@Aizu_Brand_Kan",
     title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・送料無料",
     description:
       "楽天・メルカリアワード受賞店！皇室献上の極上柿。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送。",
-    images: ["https://mishirazu.aizu-syokubura.com/images/ogp.jpg"],
-    creator: "@aizubrandhall",
+    images: [
+      {
+        url: "https://mishirazu.aizu-syokubura.com/images/ogp.jpg",
+        alt: "皇室献上の会津みしらず柿 - 渋抜き済み・種なし大玉柿",
+        width: 1217,
+        height: 647,
+      },
+    ],
   },
   robots: {
     index: true,
