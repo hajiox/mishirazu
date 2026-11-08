@@ -124,7 +124,7 @@ export default function PersimmonLandingPage() {
 
           <div className="max-w-4xl mx-auto text-base md:text-lg text-muted-foreground leading-relaxed space-y-4">
             <p>
-              2026年11月15日（日）販売開始。会津美里町で育ったみしらず柿を、渋抜きして産地からお届けします。会津の秋の味覚を、ご家庭でお楽しみください。
+              2026年11月15日（日）販売開始。会津美里町で育ったみしらず柿を、渋抜きして産地からお届けします。目安：L〜2L・16〜18玉。玉数・サイズはお選びいただけません。会津の秋の味覚を、ご家庭でお楽しみください。
             </p>
           </div>
         </div>
