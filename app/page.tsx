@@ -151,7 +151,7 @@ export default function PersimmonLandingPage() {
                 <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
                   4,100<span className="text-3xl md:text-4xl">円</span>
                 </p>
-                <p className="text-lg md:text-xl text-muted-foreground">税込・送料無料（沖縄県のみ送料＋1,000円）</p>
+                <p className="text-lg md:text-xl text-muted-foreground">税込・送料込（沖縄県のみ＋1,000円）</p>
               </div>
             </div>
           </div>
@@ -388,7 +388,7 @@ export default function PersimmonLandingPage() {
             <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
               4,100<span className="text-3xl md:text-4xl">円</span>
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground">税込・送料無料（沖縄県のみ送料＋1,000円）</p>
+            <p className="text-lg md:text-xl text-muted-foreground">税込・送料込（沖縄県のみ＋1,000円）</p>
           </div>
         </div>
       </section>
