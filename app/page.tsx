@@ -62,7 +62,7 @@ export default function PersimmonLandingPage() {
     {
       question: "種は入っていますか？",
       answer:
-        "みしらず柿は基本的に種なし品種です。ただし自然由来のため、ごくまれに小さな未熟種が含まれることがあります。",
+        "柿によっては、まれに種が入っていることがあります。",
     },
   ]
 
@@ -90,7 +90,7 @@ export default function PersimmonLandingPage() {
         <div className="relative w-full aspect-[4/5]">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F-ryIGXDywxnprCWJC111l20FPoEXr7A.jpg"
-            alt="皇室献上の柿をご家庭で"
+            alt="柿を手にした子ども"
             fill
             className="object-cover"
             priority
@@ -104,7 +104,7 @@ export default function PersimmonLandingPage() {
           <div className="relative w-full aspect-[16/9] max-w-6xl mx-auto">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E3%83%A1%E3%82%A4%E3%83%B3%E7%94%BB%E5%83%8F-ryIGXDywxnprCWJC111l20FPoEXr7A.jpg"
-              alt="皇室献上の柿をご家庭で"
+              alt="柿を手にした子ども"
               fill
               className="object-contain"
               priority
@@ -117,14 +117,14 @@ export default function PersimmonLandingPage() {
       <section className="py-12 md:py-16 bg-gradient-to-b from-white to-amber-50">
         <div className="container mx-auto px-4 text-center max-w-5xl">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 text-foreground leading-tight text-balance">
-            皇室献上の柿をご家庭で
+            会津みしらず柿 5kg箱
             <br />
-            みんなが笑顔になる美味しい柿
+            11月15日（日）より順次出荷開始
           </h1>
 
           <div className="max-w-4xl mx-auto text-base md:text-lg text-muted-foreground leading-relaxed space-y-4">
             <p>
-              艶やかな橙色の柿が詰まった5キロ箱（14～18玉入り）を産地直送でお届けします。柿は通年食べれるものではありません。収穫時期は10月中旬から12月上旬まで。今だけ！是非この機会にご賞味ください。会津の中でも美味しい柿の産地として知られる会津美里町産の柿です。
+              2026年11月15日（日）販売開始。会津美里町で育ったみしらず柿を、渋抜きして産地からお届けします。会津の秋の味覚を、ご家庭でお楽しみください。
             </p>
           </div>
         </div>
@@ -144,14 +144,14 @@ export default function PersimmonLandingPage() {
             </div>
             <div className="space-y-6">
               <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-                <Badge className="bg-amber-600 text-white hover:bg-amber-700 text-base px-4 py-2">限定200セット</Badge>
-                <Badge className="bg-red-600 text-white hover:bg-red-700 text-base px-4 py-2">送料無料</Badge>
+                <Badge className="bg-amber-600 text-white hover:bg-amber-700 text-base px-4 py-2">11月15日販売開始</Badge>
+                <Badge className="bg-red-600 text-white hover:bg-red-700 text-base px-4 py-2">沖縄県を除き送料無料</Badge>
               </div>
               <div className="text-center md:text-left">
                 <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
-                  3,900<span className="text-3xl md:text-4xl">円</span>
+                  4,100<span className="text-3xl md:text-4xl">円</span>
                 </p>
-                <p className="text-lg md:text-xl text-muted-foreground">（税・送料込）</p>
+                <p className="text-lg md:text-xl text-muted-foreground">税込・送料無料（沖縄県のみ送料＋1,000円）</p>
               </div>
             </div>
           </div>
@@ -162,13 +162,14 @@ export default function PersimmonLandingPage() {
       <section className="py-12 md:py-16 bg-amber-50">
         <div className="container mx-auto px-4 max-w-6xl">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-foreground">
-            会津ブランド館は安心安全のお店です。
+            会津ブランド館の受賞歴
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             <div className="relative aspect-square rounded-lg overflow-hidden shadow-md bg-white">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E5%AE%89%E5%BF%83%E5%AE%89%E5%85%A8mercari-aJCUCPtqNTXL8SHaX5ARTsbQk5tOUI.png"
+                alt="メルカリShopsアワード2022の受賞画像"
                 fill
                 className="object-contain p-4"
               />
@@ -176,6 +177,7 @@ export default function PersimmonLandingPage() {
             <div className="relative aspect-square rounded-lg overflow-hidden shadow-md bg-white">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E5%AE%89%E5%BF%83%E5%AE%89%E5%85%A8%E6%A5%BD%E5%A4%A9%E6%9C%80%E5%84%AA%E7%A7%80%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97-u9KpUdBGCTw0GhsdVYGMfLx1XeXY8F.png"
+                alt="楽天市場 月間優良ショップの受賞画像"
                 fill
                 className="object-contain p-4"
               />
@@ -201,9 +203,9 @@ export default function PersimmonLandingPage() {
                 />
               </div>
               <div className="space-y-4">
-                <h3 className="text-2xl md:text-3xl font-bold text-foreground">皇室献上の極上柿</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-foreground">会津の秋を代表する特産品</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  会津みしらず柿は古くから会津で栽培され、毎年皇室へ献上されるほど食味が良い特産柿です。由緒正しい柿の味をぜひご家庭でご賞味ください。
+                  会津みしらず柿は、古くから会津で育てられ、皇室への献上でも知られる特産品です。会津の秋に親しまれてきた味をお楽しみください。
                 </p>
               </div>
             </div>
@@ -239,7 +241,7 @@ export default function PersimmonLandingPage() {
               <div className="space-y-4">
                 <h3 className="text-2xl md:text-3xl font-bold text-foreground">大玉で食べやすい</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  一玉約250～300gにもなる大ぶりサイズで食べ応え十分。しかも種が少ないため食べやすく、お子様からご年配の方まで安心です。贈答用にもどうぞ。
+                  大ぶりで食べ応えがあり、食べやすい大きさに切って分け合うのにもぴったりです。ご家庭用にも、季節の贈り物にもどうぞ。
                 </p>
               </div>
             </div>
@@ -248,16 +250,16 @@ export default function PersimmonLandingPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="space-y-4 order-2 md:order-1">
                 <h3 className="text-2xl md:text-3xl font-bold text-foreground">
-                  上品な甘さと美肌を支える栄養がたっぷり
+                  上品な甘さとなめらかな果肉
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  渋みを抜いた果肉はとろけるように甘く、ビタミンCは1個で1日分以上。コラーゲン生成や抗酸化作用で、美白・ハリ・むくみ対策にも嬉しい果物です。
+                  渋抜きすると、みしらず柿ならではの上品な甘さが引き立ちます。やわらかくなるまで置くと、よりなめらかな口当たりを楽しめます。
                 </p>
               </div>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg order-1 md:order-2">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%8A%E5%93%81%E3%81%AA%E7%94%98%E3%81%95%E3%81%A8%E7%BE%8E%E8%82%8C%E3%82%92%E6%94%AF%E3%81%88%E3%82%8B%E6%A0%84%E9%A4%8A%E3%81%8C%E3%81%9F%E3%81%A3%E3%81%B7%E3%82%8A-w8yQxY2EGI2iOH2CPqnB044dEfKrNa.jpg"
-                  alt="上品な甘さと美肌を支える栄養がたっぷり"
+                  alt="柿を手にした女性のイラスト"
                   fill
                   className="object-cover"
                 />
@@ -384,9 +386,9 @@ export default function PersimmonLandingPage() {
           {/* Price Display */}
           <div className="text-center mt-8">
             <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
-              3,900<span className="text-3xl md:text-4xl">円</span>
+              4,100<span className="text-3xl md:text-4xl">円</span>
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground">（税・送料込）</p>
+            <p className="text-lg md:text-xl text-muted-foreground">税込・送料無料（沖縄県のみ送料＋1,000円）</p>
           </div>
         </div>
       </section>
@@ -395,7 +397,7 @@ export default function PersimmonLandingPage() {
       <section id="purchase" className="py-8 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-foreground">
-            ご購入はこちらから
+            11月15日（日）より順次出荷開始
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 max-w-6xl mx-auto">
@@ -420,10 +422,10 @@ export default function PersimmonLandingPage() {
                 </a>
                 <h4 className="font-bold mb-2 text-gray-900 text-sm md:text-base">Yahoo!ショッピング</h4>
                 <p className="text-xs md:text-sm text-gray-600 mb-4">
-                  PayPayポイントが貯まる使えるショッピングモールはこちら
+                  PayPayポイントが貯まる・使える
                 </p>
                 <p className="text-xs md:text-sm font-bold text-red-600">
-                  初めて当店をご利用のお客様に300円クーポン進呈中！
+                  Yahoo!ショッピングの商品ページへ
                 </p>
               </div>
             </div>
@@ -449,10 +451,10 @@ export default function PersimmonLandingPage() {
                 </a>
                 <h4 className="font-bold mb-2 text-gray-900 text-sm md:text-base">楽天市場</h4>
                 <p className="text-xs md:text-sm text-gray-600 mb-4">
-                  楽天ポイントが使える国内最大級のショッピングモールはこちら
+                  楽天ポイントが貯まる・使える
                 </p>
                 <p className="text-xs md:text-sm font-bold text-red-600">
-                  初めて当店をご利用のお客様に300円クーポン進呈中！
+                  楽天市場の商品ページへ
                 </p>
               </div>
             </div>
@@ -477,14 +479,14 @@ export default function PersimmonLandingPage() {
                   </div>
                 </a>
                 <h4 className="font-bold mb-2 text-gray-900 text-sm md:text-base">Amazon</h4>
-                <p className="text-xs md:text-sm text-gray-600">世界最大のショッピングモールでのお買い物はこちら</p>
+                <p className="text-xs md:text-sm text-gray-600">Amazonの商品ページへ</p>
               </div>
             </div>
           </div>
 
           <div className="text-center mt-8 mb-8">
             <p className="text-lg font-bold text-foreground mb-4">
-              この商品は「会津ブランド館」が製造・販売・発送を行っています。
+              会津ブランド館が販売・発送します。
             </p>
           </div>
         </div>

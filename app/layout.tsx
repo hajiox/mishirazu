@@ -8,20 +8,21 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
+const productTitle = "会津みしらず柿5kg箱｜渋抜き済み・11月15日より順次出荷"
+const productDescription =
+  "会津美里町産の会津みしらず柿5kg箱。2026年11月15日（日）販売開始・順次出荷。税込4,100円、沖縄県のみ送料1,000円追加。会津ブランド館がお届けします。"
+
 export const metadata: Metadata = {
-  title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・種なし・送料無料｜会津ブランド館",
-  description:
-    "楽天・メルカリアワード受賞店の会津ブランド館が贈る、皇室献上の極上会津みしらず柿5kg（14～18玉入り）。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送でお届けします。限定200セット・送料無料。",
+  title: `${productTitle}｜会津ブランド館`,
+  description: productDescription,
   keywords: [
     "会津みしらず柿",
     "柿",
-    "送料無料",
     "産地直送",
     "会津ブランド館",
     "皇室献上",
     "会津美里町",
     "渋抜き済み",
-    "種なし",
     "大玉",
     "楽天",
     "メルカリ",
@@ -42,9 +43,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・種なし・送料無料",
-    description:
-      "楽天・メルカリアワード受賞店！皇室献上の極上柿。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送でお届けします。",
+    title: productTitle,
+    description: productDescription,
     url: "https://mishirazu.aizu-syokubura.com",
     siteName: "会津ブランド館 会津みしらず柿専門店",
     images: [
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
         url: "https://mishirazu.aizu-syokubura.com/images/ogp.jpg",
         width: 1217,
         height: 647,
-        alt: "皇室献上の会津みしらず柿 - 渋抜き済み・種なし大玉柿",
+        alt: "会津みしらず柿",
         type: "image/jpeg",
       },
     ],
@@ -63,13 +63,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@Aizu_Brand_Kan",
     creator: "@Aizu_Brand_Kan",
-    title: "【限定200セット】皇室献上の会津みしらず柿5kg｜渋抜き済み・送料無料",
-    description:
-      "楽天・メルカリアワード受賞店！皇室献上の極上柿。渋抜き済みで届いてすぐ食べられる、種なし大玉の甘い柿を産地直送。",
+    title: productTitle,
+    description: productDescription,
     images: [
       {
         url: "https://mishirazu.aizu-syokubura.com/images/ogp.jpg",
-        alt: "皇室献上の会津みしらず柿 - 渋抜き済み・種なし大玉柿",
+        alt: "会津みしらず柿",
         width: 1217,
         height: 647,
       },
