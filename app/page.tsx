@@ -117,14 +117,14 @@ export default function PersimmonLandingPage() {
       <section className="py-12 md:py-16 bg-gradient-to-b from-white to-amber-50">
         <div className="container mx-auto px-4 text-center max-w-5xl">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 text-foreground leading-tight text-balance">
-            会津みしらず柿 5kg箱
+            渋抜き済み 会津みしらず柿 5kg箱
             <br />
-            11月15日（日）より順次出荷開始
+            4,100円・販売中／順次出荷
           </h1>
 
           <div className="max-w-4xl mx-auto text-base md:text-lg text-muted-foreground leading-relaxed space-y-4">
             <p>
-              2026年11月15日（日）販売開始。会津美里町で育ったみしらず柿を、渋抜きして産地からお届けします。目安：L〜2L・16〜18玉。玉数・サイズはお選びいただけません。会津の秋の味覚を、ご家庭でお楽しみください。
+              会津美里町で育ったみしらず柿を、渋抜きして産地からお届けします。目安：L〜2L・16〜18玉。玉数・サイズはお選びいただけません。会津の秋の味覚を、ご家庭でお楽しみください。2026年11月15日（日）から順次出荷しています。
             </p>
           </div>
         </div>
@@ -144,14 +144,14 @@ export default function PersimmonLandingPage() {
             </div>
             <div className="space-y-6">
               <div className="flex flex-wrap gap-3 justify-center md:justify-start">
-                <Badge className="bg-amber-600 text-white hover:bg-amber-700 text-base px-4 py-2">11月15日販売開始</Badge>
+                <Badge className="bg-amber-600 text-white hover:bg-amber-700 text-base px-4 py-2">販売中・順次出荷</Badge>
                 <Badge className="bg-red-600 text-white hover:bg-red-700 text-base px-4 py-2">沖縄県を除き送料無料</Badge>
               </div>
               <div className="text-center md:text-left">
                 <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
                   4,100<span className="text-3xl md:text-4xl">円</span>
                 </p>
-                <p className="text-lg md:text-xl text-muted-foreground">税込・送料込（沖縄県のみ＋1,000円）</p>
+                <p className="text-lg md:text-xl text-muted-foreground">税込・送料込み／沖縄のみ＋1,000円</p>
               </div>
             </div>
           </div>
@@ -404,7 +404,7 @@ export default function PersimmonLandingPage() {
             <p className="text-4xl md:text-5xl font-bold text-foreground mb-2">
               4,100<span className="text-3xl md:text-4xl">円</span>
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground">税込・送料込（沖縄県のみ＋1,000円）</p>
+            <p className="text-lg md:text-xl text-muted-foreground">税込・送料込み／沖縄のみ＋1,000円</p>
           </div>
         </div>
       </section>
@@ -413,7 +413,7 @@ export default function PersimmonLandingPage() {
       <section id="purchase" className="py-8 md:py-16 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12 text-foreground">
-            11月15日（日）より順次出荷開始
+            販売中・順次出荷／ご購入はこちら
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 max-w-6xl mx-auto">

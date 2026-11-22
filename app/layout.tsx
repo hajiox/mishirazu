@@ -8,9 +8,9 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
-const productTitle = "会津みしらず柿5kg箱｜渋抜き済み・11月15日より順次出荷"
+const productTitle = "会津みしらず柿5kg箱｜渋抜き済み・4,100円・販売中／順次出荷"
 const productDescription =
-  "会津美里町産の会津みしらず柿5kg箱。2026年11月15日（日）販売開始・順次出荷。税込4,100円、沖縄県のみ送料1,000円追加。会津ブランド館がお届けします。"
+  "会津美里町産の会津みしらず柿5kg箱を販売中・順次出荷。渋抜き済みで4,100円。税込・送料込み、沖縄のみ＋1,000円。L〜2L・16〜18玉が目安で、玉数・サイズはお選びいただけません。会津ブランド館がお届けします。"
 
 export const metadata: Metadata = {
   title: `${productTitle}｜会津ブランド館`,
