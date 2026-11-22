@@ -183,6 +183,22 @@ export default function PersimmonLandingPage() {
               />
             </div>
           </div>
+
+          <figure className="mt-10 max-w-4xl mx-auto rounded-lg bg-white p-4 md:p-6 shadow-md">
+            <h3 className="text-xl md:text-2xl font-bold text-center mb-4 text-foreground">
+              2025年 楽天市場「食品」ランキング1位の実績
+            </h3>
+            <Image
+              src="/images/rakuten-ranking-mishirazu-20251101.png"
+              alt="2025年11月1日更新の楽天市場・食品リアルタイムランキングで、会津みしらず柿5kg箱が1位に掲載された記録"
+              width={1080}
+              height={720}
+              className="w-full h-auto rounded-md"
+            />
+            <figcaption className="mt-3 text-xs md:text-sm text-muted-foreground text-center">
+              2025年11月1日5時04分更新時点の記録です。現在の順位を示すものではありません。
+            </figcaption>
+          </figure>
         </div>
       </section>
 
